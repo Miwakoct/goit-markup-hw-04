@@ -416,6 +416,12 @@ img {
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-logo-text {
+  margin-right: 120px;
 }
 
 .logo-part-footer {
@@ -440,5 +446,40 @@ img {
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 16px;
+}
+.footer-socialmedia {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.footer-icons-list {
+  display: flex;
+  gap: 16px;
+}
+.footer-icons-item {
+  width: 40px;
+  height: 40px;
+}
+.footer-icon-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-icon-link:hover{
+background-color: #31d0aa;
+}
+.footer-icon-link:focus{
+  background-color: #31d0aa;
+}
+
+.footer-icon {
+  fill: #f4f4fd;
 }
 /* ========================================= */
