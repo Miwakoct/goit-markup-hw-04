@@ -155,6 +155,7 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .section-hero-title {
@@ -189,7 +190,6 @@ img {
 .section-hero-btn:focus {
   background-color: #404bbf;
 }
-
 /* ========================================= */
 
 /* ========Section Goals (hiden)==== */
