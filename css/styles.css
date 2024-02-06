@@ -283,6 +283,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .section-team-list {
@@ -305,6 +306,7 @@ img {
 .team-icon-item {
   width: 40px;
   height: 40px;
+  margin-top: 8px;
 }
 .team-icon-link {
   width: 100%;
